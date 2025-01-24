@@ -18,6 +18,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter); //
-app.use('/years', yearsRouter);
+app.use('/year', yearsRouter);
 
 module.exports = app;
